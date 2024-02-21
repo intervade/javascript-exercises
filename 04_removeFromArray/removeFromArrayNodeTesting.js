@@ -1,4 +1,4 @@
-const removeFromArray = function(/**/) {
+function removeFromArray(/**/) {
 	var args = arguments;
 
 	var inputArray = arguments[0];
@@ -22,5 +22,7 @@ const removeFromArray = function(/**/) {
 
 };
 
-// Do not edit below this line
-module.exports = removeFromArray;
+var test = removeFromArray([1, 2, 3, 4], 3);
+
+return test;
+
